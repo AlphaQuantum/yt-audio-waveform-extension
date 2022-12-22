@@ -1,0 +1,20 @@
+.waveform{
+    
+    width:100%;
+    top:-200;
+    position:absolute;
+}
+/**/
+body{
+    background-color: darkcyan;
+}
+
+.canvas{
+    background: rgba(255, 255, 255, 0.466)!important;
+    top:-50px;
+    height:50px;
+    left:0;
+    width:100%;
+    top:-200;
+    position:absolute;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Youtube Soundwave",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Shows audio waveform of the youtube video you are watching",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "run_at": "document_end",
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
